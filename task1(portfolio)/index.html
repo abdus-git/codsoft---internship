@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0; 
+        }
+body{
+    background-color: rgba(169, 231, 228, 0.833);
+    color: black;
+     font-family: "Quicksand", sans-serif;
+    }
+    header{
+        color: white;
+        text-align: center;
+    }
+    nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 90px;
+        background-color: rgb(47, 39, 7)
+    }
+    nav ul{
+        display: flex;
+        justify-content: center;
+    }
+    nav ul li{
+        list-style: none;
+        margin: 0 20px;
+    }
+    nav ul li a{
+        text-decoration: none;
+        text-transform: uppercase;
+        color: white;
+    }
+    .container{
+        font-size: 1.5rem;
+    }
+    .first{
+        display: flex;
+        justify-content: space-around;
+        margin: 20px 0;
+        align-items: center;
+    }
+    .first> div{
+        width: 30%;
+    }
+    .leftsection h4{
+       font-size: 3rem; 
+    }
+    .leftsection p{
+        font-size: 20px;
+        line-height: 1.5;
+    }
+    .rightsection{
+        max-width: 233px;
+        max-height: 262pt;
+        margin: 50px;
+        border: 5px solid #2c3e50;
+    }
+    .rightsection button{
+        padding: 5px;
+        margin: 20px;
+        background: rgba(106, 179, 175, 0.833);
+        color: black;
+        border: 2px solid rgb(0, 7, 8);
+        font-size: 1rem;
+        cursor: pointer;
+    }
+    main hr{
+        background: rgb(0, 7, 8);
+        height: 1.5px;
+        margin: 40px 80px;
+    }
+    .second{
+        margin: auto;
+        max-width:80vw;
+    }
+     table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+     }
+    table, th, td {
+            border: 3px solid ;
+    }
+    th, td {
+            padding: 10px;
+            text-align: center;
+    }
+    .third{
+        margin: auto;
+        max-width:80vw;
+    }
+    ul {
+        list-style-type: disc;
+        padding-left: 30px;
+    }
+    .fourth{
+        margin: auto;
+        max-width:80vw;
+    }
+    .fifth{
+    margin: auto;
+    max-width:80vw;   
+    }
+    .fifth p img{
+        position: absolute;
+        margin-left: -42px;
+        margin-top: -4px;
+        height: 20pt;
+    }
+    footer {
+        background-color: #333;
+        text-align: center;
+        color: white;
+        margin-top: 30px;
+        padding: 15px;
+    }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">ABDUS's PORTFOLIO</div>
+            <p>
+                B.TECH CSE(AI) STUDENT <br> Aspiring web Developer 
+            </p>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact ME</a></li>
+                </ul>
+                <div class="left"></div>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="first">
+            <div class="leftsection">
+                <h4>Hi! I am Abdus sami</h4>
+                <br>
+                <p>Hello! I am Abdus, a first-year BTech Computer Science student. I have completed Python and C++ programming and I am now learning web development. I love exploring new technologies</p>
+                
+            </div>
+            <div class="rightsection">
+                <img src="img.jpg" height="350">
+                <button class="buttons"> Download Resume</button>
+            </div>
+        </section>
+        <hr>
+        <section class="second">
+            <h2>Academic Qualification</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Qualifications</th>
+                        <th>Year</th>
+                        <th>School/College</th>
+                        <th>Marks</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>10th</td>
+                        <td>2021</td>
+                        <td>St.Xavier's High School</td>
+                        <td> 79%</td>
+                    </tr>
+                    <tr>
+                        <td>12th</td>
+                        <td>2023</td>
+                        <td>St.Xavier's High School</td>
+                        <td> 84%</td>
+                    </tr>
+                    <tr>
+                        <td>B.Tech CSE</td>
+                        <td>2024(1st)</td>
+                        <td>Noida Institute of Engineering & Technology</td>
+                        <td>Currently pursuing</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <br>
+        <hr>
+        <section class="third">
+            <h2>Skills</h2>
+            <ul>
+                <li>Python</li>
+                <li>C++</li>
+                <li>HTML & CSS (Learning)</li>
+            </ul>
+        </section>
+        <br>
+        <hr>
+        <section class="fourth">
+            <h2>Projects</h2>
+            <ul>
+                <li><strong>Calculator</strong> - Simple calculator using html,css</li>
+                <li><strong>Online Shopping Cart</strong> -  in python</li>
+                <li><strong>HTML Portfolio</strong> - This Portfolio Website</li>
+            </ul>
+        </section>
+        <br>
+        <hr>
+        <section class="fifth">
+            <h2>Contact</h2>
+            <p><img src="emailicon.png" width="30px">
+            Email: abdussami2610@gmail.com
+            <br>
+            <img src="linkdin.png" width="30px">
+            linkdin:Abdus Sami
+            <br>
+            <img src="GitHub-Logo.png" width="30px">
+            Github: abdus-git
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Abdus. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
