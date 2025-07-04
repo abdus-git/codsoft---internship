@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif  
+}
+body{
+    background-color: rgb(180, 118, 42);
+    color: black;
+}
+header{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+}
+nav{
+    position: sticky;
+    top: 0;
+    z-index: 90;
+    width: 100%;
+    height: 100px;
+    background: rgb(218, 158, 69);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-size: 3em;
+    letter-spacing: 2px;
+    color: white;
+    margin-bottom:auto
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding:20px 30px ;
+    text-transform: uppercase;
+    color: white;
+}
+.icons i{
+    padding-right: 35px;
+    letter-spacing: 30x;
+    color: white;
+}
+.pic img{  
+    position: absolute;
+    right: 0%;
+    max-height: 800px;
+}
+.hero{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    max-width: 500px;
+    z-index: 99;
+}
+.hero h2{
+    font-size: 3em;
+}
+.text h3{
+    margin-top: -350px;
+    font-size: 2rem; 
+    padding-left: 50px;
+}
+button{
+    margin-top: 100px;
+    padding: 18px 78px;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+button:hover {
+    transform: scale(1.05);
+}
+.section {
+    text-align: center;
+    padding: 50px;
+    max-width: 1000px;
+    margin: auto;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px;
+    justify-content: center;
+}
+.gallery img {
+    width: 200px;
+    height: auto;
+    max-width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+    transition: transform 0.3s ease;
+}
+.gallery img:hover {
+    transform: scale(1.05);
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(236, 179, 94);
+    color: black;
+    font-size: 1.5em;
+}
+.contact{
+    padding-right: 15%;
+}
+.container{
+    text-align: center;
+    margin-top: -130px;
+    padding-left: 70%;
+}
+.form{
+    display: flexbox;
+    margin-top: 20px;
+}
+.form input{
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    width: 300px;
+}
+.form button{
+    background-color: white;
+    color: black;
+    height: 50px;
+    width: 120px;
+    border-radius: 70px;
+    cursor: pointer;
+    font-size: 15px;
+}
+.social{
+    text-align: left;
+    margin-top: -70px;
+}
